@@ -87,4 +87,3 @@ class Pricer:
     @modal.method()
     def wake_up(self) -> str:
         return "ok"
-

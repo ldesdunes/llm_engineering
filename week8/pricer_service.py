@@ -1,13 +1,13 @@
 import modal
 from modal import App, Image
 
-# Setup - define our infrastructure with code!
+# Configuración - define our infrastructure with code!
 
 app = modal.App("pricer-service")
 image = Image.debian_slim().pip_install("torch", "transformers", "bitsandbytes", "accelerate", "peft")
 secrets = [modal.Secret.from_name("hf-secret")]
 
-# Constants
+# Constantes
 
 GPU = "T4"
 BASE_MODEL = "meta-llama/Meta-Llama-3.1-8B"

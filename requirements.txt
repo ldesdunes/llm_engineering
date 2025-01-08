@@ -23,7 +23,7 @@ langchain[docarray]
 datasets
 sentencepiece
 matplotlib
-google-generativeai
+google.generativeai
 anthropic
 scikit-learn
 unstructured
@@ -37,6 +37,3 @@ ollama
 accelerate
 sentencepiece
 bitsandbytes
-psutil
-setuptools
-speedtest-cli
